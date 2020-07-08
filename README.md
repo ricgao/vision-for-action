@@ -1,4 +1,4 @@
-### Compilation Memo which I use, may work or may not.
+### Compilation Memo (gamehook & gamehook-gtav) which I use, may work or may not.
 1. Use Win10 + VS2017
 2. Steam GTAV lastest (202007)
 3. Need capture.hk server.hk gta5.hk (together with gamehook.dll & scripthookv.dll), use python.hk later
