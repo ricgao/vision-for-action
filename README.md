@@ -2,7 +2,7 @@
 1. Use Win10 + VS2017
 2. Steam GTAV lastest (202007)
 3. Need capture.hk server.hk gta5.hk (together with gamehook.dll & scripthookv.dll), use python.hk later
-4. Comment line in wrapper/dx11.cpp, in case GTAV crashes.
+4. Comment line 182 in wrapper/dx11.cpp, in case GTAV crashes. (func: GameHookBuffer::ID3D11Buffer_release, //that->GetDesc(&desc);) Not sure why it make program stack corrupt
 5. http://localhost:8766/targets see all targets
 6. http://localhost:8766/settings?fps=1&W=1280&H=720&targets=texture_id  then view results in http://localhost:8766/view
 7. all results in GTA game folder cap/xxxx
