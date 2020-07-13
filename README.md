@@ -9,6 +9,11 @@
 8. compile python.hk: python -> properties -> VC++ Directories -> includes/reference directory -> set python headers and libs (C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64\include)
 9. 
 
+### python.hk
+1. Use anaconda3
+2. Specify python dir in project `python` -> properties -> VC++ Directories -> includes/reference directory -> set python headers and libs (C:\Users\ricga\anaconda3\include;C:\Users\ricga\anaconda3\libs;C:\Users\ricga\anaconda3\)
+3. Set system environments: `PYTHONHOME=C:\Users\ricga\anaconda3` `PYTHONPATH=C:\Users\ricga\anaconda3\DLLs;C:\Users\ricga\anaconda3\Lib;C:\Users\ricga\anaconda3\Lib\site-packages` `Path+=C:\Users\ricga\anaconda3\Library\bin`
+
 ## Does computer vision matter for action?
 
 [Brady Zhou](http://www.bradyzhou.com), [Philipp Krähenbühl](http://www.philkr.net), and [Vladlen Koltun](http://www.vladlen.info)  
